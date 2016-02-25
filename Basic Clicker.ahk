@@ -4,19 +4,19 @@
 	;Basic Clicker
 	;Author: Cloudwad (Rewritten from from Scripts by CrownFox)
 
-	global title := "Clicker Heroes"
+global title := "Clicker Heroes"
 
-	#NoEnv  ;Recommended for performance and compatibility with future AutoHotkey releases.
-	SendMode Input  ;Recommended for new scripts due to its superior speed and reliability.
-	SetWorkingDir %A_ScriptDir%  ;Ensures a consistent starting directory.
-	#SingleInstance force ;if script is opened again, replace instance
-	#Persistent ;script stays in memory until ExitApp is called or script crashes
-	SetTitleMatchMode 3 ;Exact Match
-	WinActivate %title%
-	SetMouseDelay -1
-	SetBatchLines -1 
-	SetControlDelay -1
-	SetKeyDelay -1
+#NoEnv  ;Recommended for performance and compatibility with future AutoHotkey releases.
+SendMode Input  ;Recommended for new scripts due to its superior speed and reliability.
+SetWorkingDir %A_ScriptDir%  ;Ensures a consistent starting directory.
+#SingleInstance force ;if script is opened again, replace instance
+#Persistent ;script stays in memory until ExitApp is called or script crashes
+SetTitleMatchMode 3 ;Exact Match
+WinActivate %title%
+SetMouseDelay -1
+SetBatchLines -1 
+SetControlDelay -1
+SetKeyDelay -1
 
 ;---------------------------------------------------------------------------------------------------;
 
